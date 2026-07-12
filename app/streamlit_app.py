@@ -115,8 +115,11 @@ with tab2:
     u1, u2, u3 = st.columns(3)
     u1.info(f"**News:** {row['news_headline_text']}")
     u2.warning(f"**Transaction Narration:** {row['txn_narration_sample']}")
-    u3.error(f"**GST Remark:** {row['gst_remark_text']}") if "DELAYED" in str(row['gst_remark_text']) \
-        else u3.success(f"**GST Remark:** {row['gst_remark_text']}")
+    gst_text = f"**GST Remark:** {row['gst_remark_text']}"
+    if "DELAYED" in str(row['gst_remark_text']):
+        u3.error(gst_text)
+    else:
+        u3.success(gst_text)
 
     st.markdown("##### Why this score? (Explainability - Common Interpretation Framework)")
     st.dataframe(imp_df, use_container_width=True, hide_index=True)
