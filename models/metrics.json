@@ -1,0 +1,16 @@
+{
+  "roc_auc": 0.7919,
+  "average_precision": 0.5256,
+  "operating_threshold": 0.0913,
+  "default_capture_recall": 0.9017,
+  "precision_at_threshold": 0.2815,
+  "f1_at_threshold": 0.4291,
+  "confusion_matrix": {
+    "TN": 822,
+    "FP": 1100,
+    "FN": 47,
+    "TP": 431
+  },
+  "n_test": 2400,
+  "baseline_legacy_accuracy_range": "16-22% (existing fragmented, structured-only models)"
+}

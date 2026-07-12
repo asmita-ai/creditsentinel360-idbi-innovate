@@ -1,0 +1,50 @@
+[
+  {
+    "friendly":"Existing NPA Flag",
+    "importance":0.1063110828
+  },
+  {
+    "friendly":"Prior Loan Restructures",
+    "importance":0.0914940014
+  },
+  {
+    "friendly":"Unstructured Risk Index (NLP)",
+    "importance":0.0771673173
+  },
+  {
+    "friendly":"Credit Bureau Score",
+    "importance":0.0565461479
+  },
+  {
+    "friendly":"Stressed Transaction Narration",
+    "importance":0.0330818482
+  },
+  {
+    "friendly":"News Sentiment Score",
+    "importance":0.0293263253
+  },
+  {
+    "friendly":"Days-Past-Due (last 3m)",
+    "importance":0.0267770756
+  },
+  {
+    "friendly":"Sector Stress Index",
+    "importance":0.0223973971
+  },
+  {
+    "friendly":"Collateral Coverage Ratio",
+    "importance":0.0222865399
+  },
+  {
+    "friendly":"EMI-to-Income Ratio",
+    "importance":0.020130869
+  },
+  {
+    "friendly":"YoY Turnover Decline",
+    "importance":0.0193020236
+  },
+  {
+    "friendly":"Max Days-Past-Due (12m)",
+    "importance":0.0183555167
+  }
+]

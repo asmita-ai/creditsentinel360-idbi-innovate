@@ -1,0 +1,29 @@
+{
+  "numeric": [
+    "bureau_score",
+    "loan_amount",
+    "tenure_months",
+    "interest_rate",
+    "emi_to_income_ratio",
+    "collateral_coverage_ratio",
+    "utilization_ratio",
+    "dpd_last_3m",
+    "dpd_last_12m_max",
+    "num_restructures",
+    "existing_npa_flag",
+    "sector_stress_index",
+    "gst_filing_delay_days",
+    "turnover_decline_pct_yoy",
+    "vintage_months",
+    "news_sentiment_score",
+    "news_stress_kw_score",
+    "gst_stress_kw_score",
+    "txn_stress_flag",
+    "unstructured_risk_index"
+  ],
+  "categorical": [
+    "loan_type",
+    "borrower_segment",
+    "sector"
+  ]
+}
