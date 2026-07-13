@@ -124,6 +124,6 @@ video before submitting.
 
 ## Team
 
-- Team Name: *[fill in]*
-- Team Leader: *[fill in]*
+- Team Name: *Asmita*
+- Team Leader: *Asmita Karmakar*
 - Problem Statement: PS 4 — Default Prediction Model
